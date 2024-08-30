@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
+
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -17,10 +18,10 @@
             <a href="" class="header__link_active">главная</a>
           </li>
           <li>
-            <a href="">посмотреть лоты</a>
+            <a href="" class="header__link">посмотреть лоты</a>
           </li>
           <li>
-            <a href="">об аукционе</a>
+            <a href="" class="header__link">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +34,24 @@
         наб. Принсенграхт 263-<br>265, Амстердам
       </address>
     </header>
-    <main></main>
+
+    <main>
+      <section class="cover">
+        <!--<img src="./images/cover.jpg" alt="фон заголовка">-->
+        <div class="overlay"></div>
+        <h1 class="cover-title">
+          <span class="aligned-text">о<span class="letter-spacing-extended">н</span>о</span>
+          <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">б</span>е</span>
+          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
+    </main>
+
     <footer></footer>
+
   </body>
 </html>
