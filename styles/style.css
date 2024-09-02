@@ -151,7 +151,7 @@ address {
   padding: 12px 32px;
 }
 
-.lots{
+.lots {
   position: relative;
   top: calc(96px + 179px); /*отступ секции "cover" + собственный отступ */
 }
@@ -214,7 +214,7 @@ address {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 .card_type_film {
