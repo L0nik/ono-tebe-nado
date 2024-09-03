@@ -340,26 +340,26 @@ address {
   text-underline-offset: 4px;
 }
 
-.footer__links-list {
+.footer__menu-list {
   list-style: none;
 }
 
-.footer__link_active {
+.footer__menu-link_active {
   text-decoration: none;
 }
 
-.footer__icon-list {
+.footer__social-list {
   justify-self: end;
   display: flex;
   gap: 48px;
   list-style: none;
 }
 
-.footer__icon-list-item {
+.footer__social-list-item {
   width: 48px;
   height: 48px;
 }
 
-.footer__icon-image {
+.footer__social-icon {
   object-fit: contain;
 }
