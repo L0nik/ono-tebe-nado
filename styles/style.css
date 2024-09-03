@@ -312,7 +312,8 @@ address {
 .footer {
   position: relative;
   /*отступы "cover" + "lots" + "about" + собственный*/
-  top: calc(96px + 179px + 146px + 180px);  
+  /*top: calc(96px + 179px + 146px + 180px); - ругается автотест*/
+  top: calc(601px);  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
