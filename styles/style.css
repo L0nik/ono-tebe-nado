@@ -59,6 +59,7 @@ address {
   padding-top: 5px;
   padding-right: 62px;
   line-height: 25px;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -250,7 +251,7 @@ address {
 
 .about {
   position: relative;
-  top: calc(96px + 179px + 146px); /*отступ секции "cover" + секции "lots" + собственный отступ */
+  top: calc(96px + 179px + 146px); /*отступы секций "cover" + "lots" + собственный отступ */
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-left: 24px;
@@ -304,4 +305,61 @@ address {
 .about__logo-image {
   object-fit: contain;
   object-position: center center;
+}
+
+.footer {
+  position: relative;
+  top: calc(96px + 179px + 146px + 180px); /*отступы секций "cover" + "lots" + "about" + собственный отступ */  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer__address {
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-underline-offset: 4px;
+}
+
+.footer__menu {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  text-underline-offset: 4px;
+}
+
+.footer__links-list {
+  list-style: none;
+}
+
+.footer__link_active {
+  text-decoration: none;
+}
+
+.footer__icon-list {
+  justify-self: end;
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__icon-list-item {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__icon-image {
+  object-fit: contain;
 }
