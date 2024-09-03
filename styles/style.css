@@ -154,7 +154,8 @@ address {
 
 .lots {
   position: relative;
-  top: calc(96px + 179px); /*отступ секции "cover" + собственный отступ */
+  /*отступ секции "cover" + собственный отступ*/
+  top: calc(96px + 179px);
 }
 
 .lots__heading {
@@ -251,7 +252,8 @@ address {
 
 .about {
   position: relative;
-  top: calc(96px + 179px + 146px); /*отступы "cover" + "lots" + собственный*/
+  /*отступы "cover" + "lots" + собственный*/
+  top: calc(96px + 179px + 146px);
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-left: 24px;
@@ -309,7 +311,8 @@ address {
 
 .footer {
   position: relative;
-  top: calc(96px + 179px + 146px + 180px); /*отступы "cover" + "lots" + "about" + собственный*/  
+  /*отступы "cover" + "lots" + "about" + собственный*/
+  top: calc(96px + 179px + 146px + 180px);  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
