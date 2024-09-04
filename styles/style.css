@@ -52,14 +52,20 @@ address {
   height: 105px;
 }
 
-.header__address {
-  justify-self: end;
+.address {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-underline-offset: 4px;
+}
+
+.header__address {
+  justify-self: end;
   padding-top: 5px;
   padding-right: 62px;
-  line-height: 25px;
-  text-underline-offset: 4px;
 }
 
 .cover {
@@ -319,15 +325,8 @@ address {
 
 .footer__address {
   justify-self: start;
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   letter-spacing: 0.01em;
   color: #000000;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
